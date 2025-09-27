@@ -7,6 +7,15 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "MCU Datalogger")
+		(date "9/16/2025")
+		(company "LAUDE, RUSELLE RAE D.")
+		(comment 1 "BSECE - 1C")
+		(comment 2 "ELECTRONICS ENGINEERING DEPARTMENT")
+		(comment 3 "COLLEGE OF ENGINEERING")
+		(comment 4 "TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES")
+	)
 	(layers
 		(0 "F.Cu" mixed)
 		(2 "B.Cu" signal)

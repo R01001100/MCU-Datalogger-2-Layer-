@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "4bd39814-648a-43e5-9d59-9775154104be")
 	(paper "A4")
+	(title_block
+		(date "916/2025")
+		(company "MCU Datalogger")
+		(comment 1 "LAUDE, RUSELLE RAE D.")
+		(comment 2 "BSECE - 1C")
+		(comment 3 "ELECTRONICS ENGINEERING DEPARTMENT")
+		(comment 4 "COLLEGE OF ENGINEERING")
+		(comment 5 "TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES")
+	)
 	(lib_symbols
 		(symbol "24LC1025-I_SM:24LC1025-I_SM"
 			(pin_names
@@ -3096,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 125.73) (xy 165.1 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385d3472-1f3c-4091-9a5d-52dd21e8e29e")
-	)
-	(wire
-		(pts
 			(xy 91.44 152.4) (xy 104.14 152.4)
 		)
 		(stroke
@@ -3286,7 +3285,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 125.73) (xy 165.1 127)
+			(xy 153.67 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e595be3-9417-40f5-ba46-5fe8ad6cda06")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 153.67 127)
 		)
 		(stroke
 			(width 0)
@@ -3353,6 +3362,16 @@
 			(type default)
 		)
 		(uuid "7ea41f8f-04a1-4a92-800d-e64dd95053c2")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805234bf-f50c-46b4-b5ac-68f33ef1e7d9")
 	)
 	(wire
 		(pts
@@ -3676,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 123.19) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafe3cb1-a918-4a4f-bc83-eb81ed21ea61")
-	)
-	(wire
-		(pts
 			(xy 241.3 95.25) (xy 241.3 97.79)
 		)
 		(stroke
@@ -3775,7 +3784,7 @@
 		(uuid "fc688bc8-e251-4d62-ad5d-c13bfbae044d")
 	)
 	(label "RESET"
-		(at 172.72 149.86 180)
+		(at 161.29 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3815,7 +3824,7 @@
 		(uuid "17b97e6d-1c06-49e5-93d7-c70133eb33a8")
 	)
 	(label "RX"
-		(at 172.72 140.97 180)
+		(at 161.29 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3825,7 +3834,7 @@
 		(uuid "1e627cfa-78bf-4926-9f26-846bb5a21cd5")
 	)
 	(label "D4"
-		(at 196.85 134.62 0)
+		(at 185.42 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3845,7 +3854,7 @@
 		(uuid "1f7e1e0a-08fc-4443-b49a-d7af73f2fa8d")
 	)
 	(label "SCK"
-		(at 172.72 133.35 180)
+		(at 161.29 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3895,7 +3904,7 @@
 		(uuid "47b4d2ae-9c07-4d59-86ae-b0ee2693861e")
 	)
 	(label "MOSI"
-		(at 172.72 144.78 180)
+		(at 161.29 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3935,7 +3944,7 @@
 		(uuid "5a38ef55-2af3-4f78-9fd1-825baf5a369f")
 	)
 	(label "D2"
-		(at 196.85 129.54 0)
+		(at 185.42 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3945,7 +3954,7 @@
 		(uuid "5df8c29b-8017-48ea-aff9-aa90a15fce51")
 	)
 	(label "SDA"
-		(at 172.72 130.81 180)
+		(at 161.29 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3965,7 +3974,7 @@
 		(uuid "62b2204f-6744-407c-9533-9bd236ab4cb8")
 	)
 	(label "D5"
-		(at 196.85 137.16 0)
+		(at 185.42 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,7 +4024,7 @@
 		(uuid "780a1fd1-1b6a-4613-9f36-424c4faa457c")
 	)
 	(label "D6"
-		(at 196.85 139.7 0)
+		(at 185.42 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4035,7 +4044,7 @@
 		(uuid "86ffa86b-2d21-4df3-878b-7a2800c608cb")
 	)
 	(label "D7"
-		(at 196.85 142.24 0)
+		(at 185.42 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,7 +4094,7 @@
 		(uuid "a1a5ff4c-9335-47f6-a5a0-e45fbd3685c7")
 	)
 	(label "D8"
-		(at 196.85 144.78 0)
+		(at 185.42 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4105,7 +4114,7 @@
 		(uuid "a542572f-6eff-4496-9ed9-5f91af2a948e")
 	)
 	(label "MISO"
-		(at 172.72 147.32 180)
+		(at 161.29 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4125,7 +4134,7 @@
 		(uuid "b3c14de4-329e-460f-834a-f5dbeb7bc53e")
 	)
 	(label "TX"
-		(at 172.72 138.43 180)
+		(at 161.29 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,7 +4254,7 @@
 		(uuid "ed6e4f11-410b-4f97-ab08-ac7a4a6492c9")
 	)
 	(label "D3"
-		(at 196.85 132.08 0)
+		(at 185.42 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4255,7 +4264,7 @@
 		(uuid "f6d8f8e6-4154-4eb5-93d3-cf55c3b72942")
 	)
 	(label "Vcc"
-		(at 165.1 123.19 180)
+		(at 153.67 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7277,7 +7286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 127 0)
+		(at 153.67 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7286,7 +7295,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb648232-8931-4600-88d0-e1ecece57321")
 		(property "Reference" "#PWR03"
-			(at 165.1 133.35 0)
+			(at 153.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +7304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 132.08 0)
+			(at 153.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 127 0)
+			(at 153.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 127 0)
+			(at 153.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 127 0)
+			(at 153.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7417,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 120.65)
+		(at 161.29 120.65)
 		(size 24.13 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7422,9 +7431,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "332bdd2b-acd5-4556-89bc-1329fd5879e3")
-		(property "Sheetname" "Connectors"
-			(at 172.72 119.9384 0)
+		(uuid "10f2caa6-d030-4507-9316-989afa3bff98")
+		(property "Sheetname" "Untitled Sheet"
+			(at 161.29 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,8 +7441,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "C:/Project Punk/KiCAD Proj/KiCAD_Proj (MCU datalogger)/Connectors.kicad_sch/Connectors.kicad_sch"
-			(at 172.72 152.9846 0)
+		(property "Sheetfile" "C:/Project Punk/KiCAD Proj/KiCAD_Proj (MCU datalogger [2 layer])/Connectors.kicad_sch/Connectors.kicad_sch"
+			(at 161.29 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,99 +7450,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcc" passive
-			(at 172.72 123.19 180)
-			(uuid "b820367f-a0a4-4277-89f2-64da07fb26e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND" passive
-			(at 172.72 125.73 180)
-			(uuid "fbca2cb2-a183-481e-97ff-33d08cab5821")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" tri_state
-			(at 172.72 130.81 180)
-			(uuid "8bcdfeb2-f508-42f3-9d7c-a9807b57ac32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCK" passive
-			(at 172.72 133.35 180)
-			(uuid "7fab65f5-094a-4c20-81b5-06e65c905525")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX" output
-			(at 172.72 138.43 180)
-			(uuid "1479ac66-38f8-4e4f-93c8-566b18702c58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX" input
-			(at 172.72 140.97 180)
-			(uuid "fe43a124-d1f0-40d5-aadf-a3e57b4dcaed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOSI" input
-			(at 172.72 144.78 180)
-			(uuid "5a61def7-506d-4561-8e2a-a1ff2a0603c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MISO" output
-			(at 172.72 147.32 180)
-			(uuid "493ce983-50a1-4799-93a0-3a77592cc1a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESET" passive
-			(at 172.72 149.86 180)
-			(uuid "f45d8c78-6bb4-4e28-a5a0-31839a71343c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "D2" tri_state
-			(at 196.85 129.54 0)
-			(uuid "1a638007-1120-4cb0-b1e9-870eec652a67")
+			(at 185.42 129.54 0)
+			(uuid "764a5130-2137-4065-a8cc-c13c96f1649b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,8 +7461,8 @@
 			)
 		)
 		(pin "D3" tri_state
-			(at 196.85 132.08 0)
-			(uuid "7d5c924b-0e52-42d6-8230-4562b1947ec6")
+			(at 185.42 132.08 0)
+			(uuid "07cc656b-1aed-437b-a92f-c59e1dc817e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,8 +7471,8 @@
 			)
 		)
 		(pin "D4" tri_state
-			(at 196.85 134.62 0)
-			(uuid "edcd6be2-c33f-4e1f-aa47-b1a167c9b431")
+			(at 185.42 134.62 0)
+			(uuid "a051f240-e493-4b2e-9f5b-5f20e067ce35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,8 +7481,8 @@
 			)
 		)
 		(pin "D5" tri_state
-			(at 196.85 137.16 0)
-			(uuid "c69fced2-fa52-4185-80ae-12f12a6ff5bf")
+			(at 185.42 137.16 0)
+			(uuid "705f1698-310f-452b-baaf-a0c50dcbb3b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,8 +7491,8 @@
 			)
 		)
 		(pin "D6" tri_state
-			(at 196.85 139.7 0)
-			(uuid "239881c6-49ec-4ba1-a030-8fa389b9dbfd")
+			(at 185.42 139.7 0)
+			(uuid "f4045fae-ddb9-4c87-bcda-4b0fddae7b1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,8 +7501,8 @@
 			)
 		)
 		(pin "D7" tri_state
-			(at 196.85 142.24 0)
-			(uuid "7278931c-b477-4f4c-8ac2-a2f243fda5a7")
+			(at 185.42 142.24 0)
+			(uuid "6053e6b6-0cec-43ca-ac7b-2ffbe823f46e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,8 +7511,8 @@
 			)
 		)
 		(pin "D8" tri_state
-			(at 196.85 144.78 0)
-			(uuid "799f1657-8159-4521-8fec-55044968f183")
+			(at 185.42 144.78 0)
+			(uuid "93557e70-d2d3-4c61-8ea6-374462baed78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,10 +7520,100 @@
 				(justify right)
 			)
 		)
+		(pin "GND" passive
+			(at 161.29 125.73 180)
+			(uuid "4da82258-45db-4232-965c-ac942f5d8fa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcc" passive
+			(at 161.29 123.19 180)
+			(uuid "162297d9-bd66-4d3f-a1f8-1bdc99fa9ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 161.29 147.32 180)
+			(uuid "a624c9db-26d6-40f3-8dac-a6999d72861a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 161.29 144.78 180)
+			(uuid "91c54b66-9f48-4aa3-b1b6-246b232c5b11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" passive
+			(at 161.29 149.86 180)
+			(uuid "2439da4a-5843-4010-9331-9776ce5e6ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 161.29 140.97 180)
+			(uuid "a6a9296d-08ff-449f-95b4-b03bd4803351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" passive
+			(at 161.29 133.35 180)
+			(uuid "12124929-a273-450e-9018-ae3a3c9076dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" tri_state
+			(at 161.29 130.81 180)
+			(uuid "cffcd127-1cf7-4007-9906-28df0ed45546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 161.29 138.43 180)
+			(uuid "c492a0a7-207c-4cf2-a86f-ad01ab784c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "KiCAD_Proj (MCU datalogger)"
 				(path "/4bd39814-648a-43e5-9d59-9775154104be"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
