@@ -3797,16 +3797,6 @@
 		)
 		(uuid "17b97e6d-1c06-49e5-93d7-c70133eb33a8")
 	)
-	(label "RX"
-		(at 161.29 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e627cfa-78bf-4926-9f26-846bb5a21cd5")
-	)
 	(label "D4"
 		(at 185.42 134.62 0)
 		(effects
@@ -4047,6 +4037,16 @@
 		)
 		(uuid "8b832b91-ad4b-40dc-8993-57ecadd26361")
 	)
+	(label "TX"
+		(at 185.42 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d0791ab-21f0-4a63-8838-6411033219dd")
+	)
 	(label "SCL"
 		(at 116.84 151.13 0)
 		(effects
@@ -4097,6 +4097,16 @@
 		)
 		(uuid "a6565c12-b698-4010-a13b-1a90bf0f3dec")
 	)
+	(label "RX"
+		(at 185.42 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7afed32-848f-4f50-81f5-83d1288faa75")
+	)
 	(label "Vcc"
 		(at 30.48 143.51 180)
 		(effects
@@ -4106,16 +4116,6 @@
 			(justify right bottom)
 		)
 		(uuid "b3c14de4-329e-460f-834a-f5dbeb7bc53e")
-	)
-	(label "TX"
-		(at 161.29 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b3c4e467-841d-40ca-9ab6-0999cb1c65bc")
 	)
 	(label "SDA"
 		(at 195.58 85.09 180)
@@ -4226,6 +4226,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed6e4f11-410b-4f97-ab08-ac7a4a6492c9")
+	)
+	(label "SCK"
+		(at 161.29 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4d6d018-14ea-416d-bdd2-d475a981009e")
 	)
 	(label "D3"
 		(at 185.42 132.08 0)
@@ -7318,7 +7328,7 @@
 	)
 	(sheet
 		(at 161.29 120.65)
-		(size 24.13 31.75)
+		(size 24.13 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7332,7 +7342,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "10f2caa6-d030-4507-9316-989afa3bff98")
-		(property "Sheetname" "Untitled Sheet"
+		(property "Sheetname" "Connectors"
 			(at 161.29 119.9384 0)
 			(effects
 				(font
@@ -7342,7 +7352,7 @@
 			)
 		)
 		(property "Sheetfile" "C:/Project Punk/KiCAD Proj/KiCAD_Proj (MCU datalogger [2 layer])/Connectors.kicad_sch/Connectors.kicad_sch"
-			(at 161.29 152.9846 0)
+			(at 161.29 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,13 +7481,13 @@
 			)
 		)
 		(pin "RX" input
-			(at 161.29 140.97 180)
+			(at 185.42 151.13 0)
 			(uuid "a6a9296d-08ff-449f-95b4-b03bd4803351")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCL" passive
@@ -7501,8 +7511,18 @@
 			)
 		)
 		(pin "TX" output
-			(at 161.29 138.43 180)
+			(at 185.42 148.59 0)
 			(uuid "c492a0a7-207c-4cf2-a86f-ad01ab784c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" passive
+			(at 161.29 142.24 180)
+			(uuid "3896824d-1f8f-4c1a-a09f-3a22dc0cbab9")
 			(effects
 				(font
 					(size 1.27 1.27)
