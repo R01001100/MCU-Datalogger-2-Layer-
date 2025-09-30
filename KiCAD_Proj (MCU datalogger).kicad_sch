@@ -2796,6 +2796,12 @@
 		(uuid "b3819be0-1af5-4bf4-bc23-e2a61666437c")
 	)
 	(junction
+		(at 104.14 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b2f247-87de-4b7f-8726-dd285931364a")
+	)
+	(junction
 		(at 232.41 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2849,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 29.21) (xy 90.17 34.29)
+			(xy 90.17 25.4) (xy 90.17 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 109.22 34.29)
+			(xy 99.06 34.29) (xy 104.14 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3329,6 +3335,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 34.29) (xy 109.22 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797f1306-dc06-4f10-b7ae-81aec10529ba")
+	)
+	(wire
+		(pts
 			(xy 129.54 135.89) (xy 129.54 133.35)
 		)
 		(stroke
@@ -3356,6 +3372,16 @@
 			(type default)
 		)
 		(uuid "805234bf-f50c-46b4-b5ac-68f33ef1e7d9")
+	)
+	(wire
+		(pts
+			(xy 104.14 29.21) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808b243e-8369-4405-a010-667686ea6e26")
 	)
 	(wire
 		(pts
@@ -4058,7 +4084,7 @@
 		(uuid "981919ca-14c5-4960-ab2a-3aaded72fafc")
 	)
 	(label "Vcc"
-		(at 90.17 29.21 0)
+		(at 90.17 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4263,8 +4289,9 @@
 				(xy 19.05 118.11) (xy 19.05 168.91) (xy 146.05 168.91) (xy 146.05 118.11)
 			)
 			(stroke
-				(width 0)
-				(type dash)
+				(width 0.254)
+				(type solid)
+				(color 0 0 139 1)
 			)
 			(fill
 				(type none)
@@ -4278,8 +4305,9 @@
 				(xy 19.05 20.32) (xy 19.05 83.82) (xy 120.65 83.82) (xy 120.65 20.32)
 			)
 			(stroke
-				(width 0)
-				(type dash)
+				(width 0.254)
+				(type solid)
+				(color 0 0 139 1)
 			)
 			(fill
 				(type none)
@@ -4293,8 +4321,9 @@
 				(xy 125.73 20.32) (xy 278.13 20.32) (xy 278.13 109.22) (xy 125.73 109.22)
 			)
 			(stroke
-				(width 0)
-				(type dash)
+				(width 0.254)
+				(type solid)
+				(color 0 0 139 1)
 			)
 			(fill
 				(type none)
@@ -4308,8 +4337,9 @@
 				(xy 220.98 120.65) (xy 246.38 120.65) (xy 246.38 147.32) (xy 220.98 147.32)
 			)
 			(stroke
-				(width 0)
-				(type dash)
+				(width 0.254)
+				(type solid)
+				(color 0 0 139 1)
 			)
 			(fill
 				(type none)
@@ -6739,6 +6769,72 @@
 			(project ""
 				(path "/4bd39814-648a-43e5-9d59-9775154104be"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f789fb-81dd-4865-a365-2408a6aa6bc9")
+		(property "Reference" "#FLG02"
+			(at 104.14 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.14 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d963639c-0a65-4f76-bc1d-de64b2eb2c8b")
+		)
+		(instances
+			(project ""
+				(path "/4bd39814-648a-43e5-9d59-9775154104be"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
